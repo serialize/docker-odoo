@@ -1,4 +1,4 @@
-FROM python:2.7-jessie
+FROM python:2.7-slim
 
 RUN set -x; \
     apt-get update \
